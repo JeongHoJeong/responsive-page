@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Mobile devices */
+@media only screen and (max-device-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
+
+/* Other devices */
+@media not screen and (max-device-width: 768px) {
+  img {
+    max-width: 740px;
+  }
+}
