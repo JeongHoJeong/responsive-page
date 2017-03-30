@@ -6,6 +6,7 @@ html, body {
 .frame {
   text-align: center;
   margin: 0 auto;
+  max-width: 740px;
 }
 
 .wrapper {
@@ -39,17 +40,10 @@ html, body {
 }
 
 /* Mobile devices */
-@media only screen and (max-device-width: 768px),
-screen and (max-width: 740px) {
+@media only screen and (max-device-width: 768px) and (orientation: portrait),
+only screen and (max-device-height: 768px) and (orientation: landscape) {
   .frame {
     width: 100%;
-  }
-}
-
-/* Other devices */
-@media only screen and (min-width: 741px) and (min-device-width: 769px),
-(max-device-width: 768px) and (orientation: landscape) {
-  .frame {
-    max-width: 740px;
+    max-width: none;
   }
 }
