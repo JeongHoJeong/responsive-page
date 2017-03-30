@@ -1,5 +1,8 @@
 # Responsive Webpage
 
+## 데모 웹 페이지
+http://responsive-page.jeonghojeong.me/
+
 ## 이미지 로드 실패시 처리
 - 각 이미지마다 종횡비를 계산합니다.
 - 각 이미지마다 해당하는 이미지와 종횡비가 일치하는 컨테이너를 만들고, 그 안에 `img`를 완전히 채워서 넣습니다. 이 부분은 `padding-bottom`의 크기가 해당 요소의 부모의 `width`에 상대적이라는 점에 착안합니다.
