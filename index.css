@@ -1,31 +1,20 @@
 html, body {
   margin: 0;
   padding: 0;
-  text-align: center;
-}
-
-img {
-  display: block;
-  width: 100%;
 }
 
 .frame {
-  position: relative;
-  display: block;
   text-align: center;
   margin: 0 auto;
 }
 
 .wrapper {
   position: relative;
-  display: block;
-  margin: 0;
-  line-height: 0;
-  font-size: 0;
 }
 
 .wrapper > img {
   position: absolute;
+  width: 100%;
   left: 0;
   right: 0;
   top: 0;
