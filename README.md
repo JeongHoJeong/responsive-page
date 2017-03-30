@@ -9,6 +9,7 @@ http://responsive-page.jeonghojeong.me/
 - 결과적으로 컨테이너의 가로 크기가 변하더라도 종횡비는 항상 일정하게 유지되며, 이미지 로드에 실패해 안에 `img`가 채워져 있지 않더라도, 빈 공간이 이미지가 들어있을 때와 정확히 같은 크기로 유지될 수 있습니다.
 
 ## 반응형 처리
-- iPad의 logical width는 768px입니다.
-- 따라서 기기가 portrait이나 landscape 둘 중 어느 상태에 있든, 현재 상태에서 가로에 해당하는 길이가 768px 이하라면 img의 width가 100%가 되도록 설정합니다.
+- iPad의 logical width는 768px입니다. (Pro 제외)
+- 따라서 기기가 portrait이나 landscape 둘 중 어느 상태에 있든, 현재 상태에서 가로에 해당하는 길이가 768px 이하라면 `img`의 width가 100%가 되도록 설정합니다.
 - 그 외의 경우에는 컨테이너의 가로 `max-width`를 740px로 설정합니다.
+- 따라서 iPad의 경우 가로 너비가 768px 이하이므로, portrait에 두었을 땐 이미지가 좌우를 전부 채우지만, landscape 상태에 둘 경우 가로가 768px을 넘게 되므로 이 경우 이미지의 크기는 740px이 되도록 했습니다.
